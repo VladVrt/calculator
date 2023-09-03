@@ -19,7 +19,7 @@
                         repeat(5,80px);
     gap:1px;
     background-color: rgb(69, 66, 82);
-    border: 5px solid rgb(69, 66, 82);
+    border: 6px solid rgb(69, 66, 82);
     border-radius: 1%;
 }
 
@@ -52,10 +52,21 @@ button {
     grid-column: span 2;
 }
 
+.operand:active, .decimal:active, .equals:active {
+    background-color: rgba(228, 228, 228, 0.664);
+}
+
 .operator {
     background-color:rgba(255, 153, 0, 0.726)
+}
+.operator:active {
+    background-color:rgba(158, 96, 3, 0.959)
 }
 
 .percent, .sign, .clear {
     background-color: rgba(10, 103, 224, 0.664);
+}
+
+.percent:active, .sign:active, .clear:active {
+    background-color: rgba(4, 61, 136, 0.664);
 }
